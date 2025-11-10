@@ -1,11 +1,24 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background image lives in the images/ folder relative to the project root */
+    background-image: url("images/poker-table.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 h1 {
     color: goldenrod;
+    text-align: center;
+    padding-top: 100px;
+    /* padding-right: 20%; */
+    font-size: 80px;
 }
 
 #message-el {
-
+    font-style: italic;
 }
